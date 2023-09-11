@@ -1,0 +1,60 @@
+h1{
+    color:rgb(245, 135, 154);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:-55px;
+    margin-left: 300px;
+    margin-top: 55px;
+    text-shadow: 2px 2px 4px rgba(233, 101, 101, 0.5)
+  
+   
+}
+.calc {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ede1e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 100px;
+    margin-left: 480px;
+}
+
+#display_calc {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#display_calc:hover{
+    background-color: rgb(234, 222, 222);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(190, 183, 183);
+}
+button.clear {
+    grid-column: span 2;
+    background-color: #ff7070;
+    color: #ffffff;
+    border: none;
+}
+button.clear:hover{
+    background-color: rgb(245, 135, 154);
+}
