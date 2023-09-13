@@ -1,0 +1,69 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto';
+   
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 80px;
+   
+}
+header .nav-bar{
+    float:right;
+    margin-top:5px;}
+ header ul li{
+    display: inline-block;
+ }   
+ header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+   
+    margin:0 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding:10px;
+
+
+ }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    position: relative;
+}
+
+nav li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease; 
+}
+
+
+nav li a:hover::after {
+    background-color: #007BFF; }
+
+.wave{
+    margin-bottom: -550px;
+    width:90%
+}
