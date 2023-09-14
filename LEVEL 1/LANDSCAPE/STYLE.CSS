@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'roboto';
+    /* font-family: 'roboto'; */
     background-color: rgb(250, 236, 178);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 header{
     position:fixed;
@@ -19,6 +19,18 @@ header{
 header .nav-bar{
     float:right;
     margin-top:5px;
+    .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: left;
+}
+
+
+
    }
  header ul li{
     display: inline-block;
@@ -46,7 +58,7 @@ nav ul {
 
 nav li {
     margin-right: 20px;
-
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav li a {
@@ -71,14 +83,58 @@ nav li a:hover::after {
     background-color: white; }
 
 .wave{
-    margin-bottom: -400px;
+    margin-bottom: -50px;
     width:90%;
-
-
+    margin-top: -16px;
 }
 
 .wave2{
     width:80%;
     margin-left: 270px;
-    margin-top: -26px;
+    margin-top: -32px;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 200px; 
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: left;
+    margin-bottom: -60px;
+}
+
+.heading {
+  
+   line-height: 40px;
+    font-weight: 35px;
+ margin-left: -550px;
+    margin-top: -85px;
+    font-size: 40px;
+    color: rgb(156, 67, 28);
+    font-family: 'Courgette', cursive;
+}
+
+.paraa {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: -550px;
+    width:500px;
+    margin-top: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+ .btn {
+    padding: 10px 20px;
+    background: linear-gradient(to left, #ba803de8, #8a4406);
+    color: #fff; 
+    font-size: 12px;
+    border-radius: 35px;
+    margin-left: -550px;
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer !important; 
+}
+
