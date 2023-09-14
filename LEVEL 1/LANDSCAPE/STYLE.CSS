@@ -85,13 +85,15 @@ nav li a:hover::after {
 .wave{
     margin-bottom: -50px;
     width:90%;
-    margin-top: -16px;
+    margin-top: -150px;
 }
 
 .wave2{
     width:80%;
     margin-left: 270px;
-    margin-top: -32px;
+    margin-top: -48px;
+    z-index: 1;
+    
 }
 .content {
     display: flex;
@@ -101,25 +103,27 @@ nav li a:hover::after {
     margin: 0 auto; 
     padding: 20px;
     text-align: left;
-    margin-bottom: -60px;
+    margin-bottom: -65px;
+    margin-top: 30px;
 }
+
 
 .heading {
   
-   line-height: 40px;
+   line-height: 50px;
     font-weight: 35px;
- margin-left: -550px;
+ margin-left: -470px;
     margin-top: -85px;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(156, 67, 28);
     font-family: 'Courgette', cursive;
 }
 
 .paraa {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
-    margin-left: -550px;
+    margin-left: -470px;
     width:500px;
     margin-top: 10px;
     font-family: 'Architects Daughter', cursive;
@@ -129,12 +133,11 @@ nav li a:hover::after {
     padding: 10px 20px;
     background: linear-gradient(to left, #ba803de8, #8a4406);
     color: #fff; 
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 35px;
-    margin-left: -550px;
+    margin-left: -470px;
     font-family: 'Crete Round', serif;
     font-weight: bold;
     border: none;
     cursor: pointer !important; 
 }
-
