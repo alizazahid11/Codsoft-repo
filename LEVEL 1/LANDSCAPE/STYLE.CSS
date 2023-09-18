@@ -31,7 +31,7 @@ header .nav-bar{
 }
  header ul li{
     display: inline-block;
-  
+   
  }   
  header ul li a{
     text-decoration: none;
@@ -231,7 +231,7 @@ nav li a:hover::after {
 }
 
 .butn:hover {
-    background-color: rgb(223, 208, 201);
+    background: linear-gradient(to left, #ffebd4e8, #f3ddc9);
 }
 .services-heading{
     margin-top: 90px;
@@ -264,9 +264,15 @@ nav li a:hover::after {
     margin-right: -70px;
     cursor: pointer;
 }
-/* .content-menu:hover{
-    background:linear-gradient(to left, #ba803de8, #914f15);
-} */
+.content-menu:hover{
+    background:linear-gradient(to left, #ffebd4e8, #c09772);
+    transition: background-color 0.3s ease;
+     color: white;
+}
+
+.menu-para:hover{
+    color: rgb(255, 253, 250);
+}
 .menu-para{
     color:#8a4406;
     font-family: 'Oswald', sans-serif;
