@@ -283,10 +283,11 @@ nav li a:hover::after {
 }
 .wave3{
     margin-top: 30px;
+    margin-bottom: -35px;
 }
 .wave4{
     margin-bottom: -35px;
- 
+ margin-top: -30px;
    
 }
 .footer{
@@ -401,4 +402,62 @@ font-size: 24px;
 }
 .dd:hover{
     color:rgb(243, 203, 93); 
+}
+
+.mid {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: -70px;
+}
+
+
+.mid > div {
+    flex: 1; 
+    margin: 10px;
+    text-align: center; 
+}
+
+.mid h2,
+.mid p {
+    margin: 0; /
+}
+.mids h2{
+    font-family: 'Lilita One', cursive;
+    color:#8a4406;
+    font-size: 30px;
+    font-weight: 12px;
+}
+.mids p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.jc h2{
+    font-family: 'Gloock', serif;
+    color:#8a4406;
+    font-size: 30px;
+    font-weight: 12px;
+}
+.jc p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.gp h2{
+    font-family: 'Righteous', cursive;
+    color:#8a4406;
+    font-size: 30px;
+    font-weight: 12px;
+}
+.gp p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.jk h2{
+    font-family: 'Alfa Slab One', cursive;
+    color:#8a4406;
+    font-size: 30px;
+    font-weight: 12px
+}
+.jk p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
 }
