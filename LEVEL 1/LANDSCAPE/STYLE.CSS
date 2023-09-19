@@ -285,7 +285,9 @@ nav li a:hover::after {
     margin-top: 30px;
 }
 .wave4{
-    margin-bottom: -20px;
+    margin-bottom: -35px;
+ 
+   
 }
 .footer{
     margin-top:-8%;
@@ -293,16 +295,20 @@ nav li a:hover::after {
     flex-wrap: wrap; 
     justify-content: space-evenly; 
     align-items: flex-start; 
+    color:rgb(252, 235, 216);
+    cursor: pointer;
 }
 
 .footer h2 {
     margin-top: 0; 
     margin-bottom: 10px; 
     font-size: 1.2em; 
+   color: rgb(250, 236, 178)
 }
 
 .footer p {
     margin: 0;
+    color:rgb(252, 235, 216)
 }
 
 .footer h2 + br {
@@ -311,4 +317,88 @@ nav li a:hover::after {
 .footer-section {
     width: calc(25% - 20px); /* Adjust the width as needed */
     margin-bottom: 20px; /* Add space between sections */
+}
+.abt-para{
+    margin-left: 55px !important;
+   justify-content: start;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: -38px !important;
+}
+.abt-para:hover{
+    color:rgb(206, 201, 201);
+}
+.help-cont{
+ margin-left: 145px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-top: -10px !important;
+}
+.help-cont:hover{
+    color:rgb(206, 201, 201);
+}
+.Corporate{
+    margin-left: 85px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -10px !important;
+}
+.Corporate:hover{
+    color:rgb(206, 201, 201);
+}
+.abt{
+    margin-left: 55px !important;
+    margin-bottom: -25px !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 20px;
+  cursor: pointer;
+}
+.icons{
+    color:white;
+   font-size: 22px;
+
+}
+
+.contact{
+    margin-bottom: 10px;
+}
+.contact:hover{
+    color:rgb(206, 201, 201);
+}
+.icon1{
+    color:white;
+    font-size: 24px;
+}
+.icon1:hover{
+color: rgb(34, 34, 152);
+    }
+.icon2{
+ color:white;
+font-size: 24px;
+    }
+.icon2:hover{
+color: rgb(11, 172, 208);
+        }
+.icon3{
+color:white;
+font-size: 24px;
+        }   
+.icon3:hover{
+  color: rgb(183, 14, 42);
+}        
+.icon4{
+    color:white;
+    font-size: 24px;    
+}
+.icon4:hover{
+    color:rgb(215, 209, 209);
+}
+.os:hover{
+    color:rgb(206, 201, 201);
+}
+.abt:hover{
+    color:rgb(243, 203, 93);
+}
+.help:hover{
+    color:rgb(243, 203, 93);  
+}
+.dd:hover{
+    color:rgb(243, 203, 93); 
 }
