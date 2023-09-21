@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    /* font-family: 'roboto'; */
     background-color: rgb(250, 236, 178);
    
 }
@@ -409,8 +408,6 @@ font-size: 24px;
     flex-wrap: wrap; 
     margin-top: -70px;
 }
-
-
 .mid > div {
     flex: 1; 
     margin: 10px;
@@ -462,4 +459,7 @@ font-size: 24px;
 .jk p{
     font-family: 'Caveat', cursive;
     font-size: 20px;
+}
+.service-container{
+   transition: ease-in-out;
 }
