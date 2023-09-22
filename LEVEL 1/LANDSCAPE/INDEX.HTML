@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image" href="https://e7.pngegg.com/pngimages/676/110/png-clipart-hot-coffee-art-coffee-cup-cafe-coffee-tea-coffee.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Carter+One&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Edu+VIC+WA+NT+Beginner&family=Kanit:wght@100&family=Lobster&family=Mochiy+Pop+One&family=Nova+Round&family=Permanent+Marker&family=Rampart+One&family=Roboto+Mono:wght@200&display=swap"
     rel="stylesheet">
@@ -45,7 +47,7 @@
 
         <ul>
 
-          <li><a href="#">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#footer">Contact</a></li>
@@ -55,6 +57,7 @@
   </nav>
 
   <div class="circle3"></div>
+
   <div class="content">
 
     <h1 class="heading">Great Coffee For<br /> Some Joy</h1>
@@ -68,7 +71,7 @@
   <div class="circle2"></div>
   <center>
     <div class="image-container">
-      <img src="../images/coffee (3).png" style=" margin-top: -350px; margin-left: 570px; width:400px;height:360px" />
+      <img src="./images/coffee (3).png" style=" margin-top: -350px; margin-left: 570px; width:400px;height:360px" />
     </div>
   </center>
 
@@ -88,15 +91,17 @@
     </svg>
 
   </div>
-  <section id="services">
-    <h2 class="services-heading"> Our Services</h2>
-    <div class="service-container">
+
+  <section id="services" >
+    <h2 class="services-heading" data-aos="fade-up"data-aos-duration="1500" data-aos-easing="ease-in-out"  data-aos-mirror="true"> Our Services</h2>
+    <div class="service-container"data-aos="fade-up"data-aos-duration="1500" data-aos-easing="ease-in-out"  data-aos-mirror="true"
+    data-aos-once="false">
 
 
       <div class="service">
         <div class="circle4">
           <div class="service-image">
-            <img src="../images/cup (2).png" alt="Service Image">
+            <img src="./images/cup (2).png" alt="Service Image">
           </div>
         </div>
 
@@ -111,7 +116,7 @@
       <div class="service">
         <div class="service-image">
           <div class="circle4">
-            <img src="../images/donut.png" alt="Service Image">
+            <img src="./images/donut.png" alt="Service Image">
           </div>
         </div>
 
@@ -126,7 +131,7 @@
       <div class="service">
         <div class="service-image">
           <div class="circle4">
-            <img src="../images/shop.png" alt="Service Image">
+            <img src="./images/shop.png" alt="Service Image">
           </div>
         </div>
 
@@ -140,9 +145,10 @@
       </div>
     </div>
   </section>
-  <section id="menu">
+  <section id="menu"  data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"  data-aos-once="false" data-aos-mirror="true">
     <h1 class="menu">Menu</h1>
-    <div class="menu-container" data-aos="fade-up" data-aos-duration="1500">
+    <div class="menu-container">
+   
       <div class="content-menu">
 
         <img src="https://clipart-library.com/new_gallery/25-254853_cup-mug-coffee-coffee-png.png" height="150px"
@@ -271,7 +277,8 @@
       d="M0,32L48,42.7C96,53,192,75,288,80C384,85,480,75,576,96C672,117,768,171,864,170.7C960,171,1056,117,1152,106.7C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
     </path>
   </svg>
-<section id="footer"> <div class="footer">
+<section id="footer" > <div class="footer"data-aos="fade-up"data-aos-duration="1500" data-aos-easing="ease-in-out"  data-aos-mirror="true"
+  data-aos-once="false">
   
     <div class="footer-section">
       <h2 class="abt" style="margin-left: 25px;">About</h2>
@@ -295,6 +302,11 @@ Indulge in the finest coffee moments at our cozy shop, where every cup tells a s
     </p>
     </div></div>
   </div></section> 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
 </body>
 
 </html>

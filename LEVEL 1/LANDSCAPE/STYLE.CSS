@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: rgb(250, 236, 178);
@@ -459,7 +460,4 @@ font-size: 24px;
 .jk p{
     font-family: 'Caveat', cursive;
     font-size: 20px;
-}
-.service-container{
-   transition: ease-in-out;
 }
