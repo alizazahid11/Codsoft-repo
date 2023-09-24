@@ -100,7 +100,7 @@ nav li a:hover::after {
     width: 83%;
     height: 115%;
     animation: spin 4s linear infinite; 
-   margin-top: 45px;
+   margin-top: 30px;
 }
 .image{
     margin-left: 700px !important;
@@ -186,10 +186,11 @@ nav li a:hover{
       color: #ffffff; 
 
   }
+
   .home .content{
     flex: 1 1 400px;
     margin-left: 60px;
-    margin-top: -400px;
+    margin-top: -420px;
 } 
 .content h4{
     color: white;
@@ -224,6 +225,7 @@ nav li a:hover{
   text-shadow: 1px 1px 1px black;
   font-size: 15px;
   margin-top: -40px;
+  margin-bottom: 25px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .content .btn{
@@ -235,6 +237,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   text-decoration: none;
   margin-top: 50px;
   font-family: 'Patua One', cursive;
+  cursor: pointer;
 }
 .content .btn:hover{
   background-color:rgb(87, 124, 244) ;
