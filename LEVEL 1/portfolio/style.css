@@ -5,12 +5,9 @@ body, html {
     background: linear-gradient(to bottom, black,rgb(64, 64, 132));
 }
 .logo{
-
- margin-top: -40px;
- margin-left: 60px;
-    height:15%;
-    width:13%;
-
+  margin-left: 60px;
+    height:17%;
+    width:16%;
 }
 header{
     position:fixed;
@@ -71,19 +68,18 @@ nav li a::after {
     position: absolute;
     width: 100%;
     height: 2px;
-    bottom: 0;
+    bottom: 15px;
     left: 0;
     background-color: transparent;
     transition: background-color 0.3s ease; 
 }
 
 nav li a:hover{
-    color:rgb(183, 230, 239)
+    color:rgb(183, 199, 250)
 }
 nav li a:hover::after {
     background-color: rgb(241, 240, 255); }
-
-    
+  
 .animated-image-container {
     position: relative;
     width: 785px; 
@@ -104,8 +100,142 @@ nav li a:hover::after {
     width: 83%;
     height: 115%;
     animation: spin 4s linear infinite; 
-   
+   margin-top: 45px;
 }
 .image{
     margin-left: 700px !important;
+    margin-top: -50px
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    .logo{
+      font-size: 30px;
+      padding-left: 50px;
+      margin-top: -15px;
+      width:20%;
+      margin-left:-20px
+
+    }
+    nav ul li a{
+      font-size: 10px;
+     
+    }
+
+
+nav li a:hover{
+    color:rgb(183, 230, 239);
+}
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+     top: 90px;
+      left: -150%;
+      text-align: center;
+      transition: all .5s;
+      flex-direction: column; 
+      align-items: center;
+      cursor: pointer;
+ 
+    }
+    nav ul li{
+       cursor: pointer;
+         margin-top: 10px;
+         margin-left: 470px;
+        
+    }
+    nav ul li a{
+      font-size: 15px;
+     margin-top: 74px;
+      cursor: pointer;
+    }
+   
+    #check:checked ~ ul{
+      left: 0;
+      cursor: pointer;
+    }
+
+  
+  
+  }
+  .background{
+  background-image: url('https://wallpaperaccess.com/full/3180097.jpg'); 
+
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+
+      width: 100%;
+      height: 100vh; 
+      color: #ffffff; 
+
+  }
+  .home .content{
+    flex: 1 1 400px;
+    margin-left: 60px;
+    margin-top: -400px;
+} 
+.content h4{
+    color: white;
+    font-size: 50px;
+
+    text-shadow: 1px 2px 2px rgb(254, 251, 255);
+    margin-bottom: -50px;
+}
+.content h2{
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+.change-content::after{
+    content: '';
+    color: rgb(183, 199, 250);
+    animation: changetext 10s infinite linear;
+    font-weight: bold;
+   
+}
+@keyframes changetext{
+    0%{content: "Web Developer";}
+    30%{content: "UI//UX Designer";}
+    50%{content: "React Developer";}
+    100%{content:"C++ Developer ";}
+   
+}
+.content p{
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  font-size: 15px;
+  margin-top: -40px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content .btn{
+  width: 110px;
+  height: 90px;
+  background-color: rgb(193, 92, 240);
+  color: white;
+  padding:10px 15px;
+  text-decoration: none;
+  margin-top: 50px;
+  font-family: 'Patua One', cursive;
+}
+.content .btn:hover{
+  background-color:rgb(87, 124, 244) ;
 }
