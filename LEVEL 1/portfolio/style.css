@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: linear-gradient(to bottom, black,rgb(64, 64, 132));
+    background: linear-gradient(to bottom, rgb(41, 19, 37),rgb(0, 0, 68));
     color:white;
 }
 .logo{
@@ -249,12 +249,56 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   font-size: 50px;
 text-shadow: 1px 2px 2px rgb(254, 251, 255);
   margin-bottom: -50px;
-  margin-left: 500px;
+  margin-left: 750px;
 }
 .abt-para{
-  margin-top: 60px;
-  margin-left: 45%;
-  font-size: 15px;
+  margin-top: -250px;
+  margin-left: 40%;
+  font-size: 17px;
   text-shadow: 1px 1px 1px black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-right: 50px;
+ text-align: justify;
+}
+.my-image{
+margin-left: -100px;
+  margin-top: -30px;
+border-radius: 26% 74% 45% 55% / 50% 39% 61% 50% ;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 60px;
+  width: 70%;
+  height: 90%;
+  border: 3px ;
+  border-radius: 62% 38% 65% 35% / 52% 71% 29% 48%  ;
+  box-sizing: border-box;
+  z-index: -1; 
+  background: linear-gradient(to top,rgb(24, 102, 150),rgb(166, 72, 166));
+  margin-top: 45px;
+}
+.abt-btn{
+  width: 110px;
+  height: 90px;
+  background-color: rgb(193, 92, 240);
+  color: white;
+  padding:10px 15px;
+  text-decoration: none;
+  margin-top: -80px;
+  font-family: 'Patua One', cursive;
+  cursor: pointer;
+  margin-left: 13%;
+
+}
+.abt-btn:hover{
+  background-color:rgb(87, 124, 244) ;
+}
+.button{
+  margin-top: -30px;
 }
