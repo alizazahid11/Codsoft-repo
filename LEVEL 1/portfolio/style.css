@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     background: linear-gradient(to bottom, black,rgb(64, 64, 132));
+    color:white;
 }
 .logo{
   margin-left: 60px;
@@ -241,4 +242,19 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 .content .btn:hover{
   background-color:rgb(87, 124, 244) ;
+}
+
+.about-hea{
+  color: white;
+  font-size: 50px;
+text-shadow: 1px 2px 2px rgb(254, 251, 255);
+  margin-bottom: -50px;
+  margin-left: 500px;
+}
+.abt-para{
+  margin-top: 60px;
+  margin-left: 45%;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
