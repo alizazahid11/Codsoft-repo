@@ -262,12 +262,13 @@ nav li a:hover::after {
     height:200px;
     margin-right: -70px;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 .content-menu:hover{
     background:linear-gradient(to left, #ffebd4e8, #c09772);
     transition: background-color 0.3s ease;
      color: white;
-     transform: translateY(-13px);  
+     transform: translateY(-10px);  
 }
 
 .menu-para:hover{

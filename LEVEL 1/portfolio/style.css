@@ -8,6 +8,7 @@ body, html {
 }
 body{
   overflow-x: hidden;
+
 }
 .logo{
   margin-left: 60px;
@@ -343,7 +344,7 @@ margin-top: -50px;
   background: linear-gradient(to top,rgb(0, 0, 0),rgb(167, 64, 167)) ;
   width: 20%; 
   border-radius: 10px;
-
+  transition: 0.5s ease;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   margin-left: 120px;
   margin-top: 30px;
@@ -371,9 +372,15 @@ margin-top: -50px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align:center;
 }
-
+.service h2:hover{
+  color:rgb(0, 0, 0);
+}
+.service p:hover{
+  color:rgb(235, 210, 192);
+}
 .service:hover{
   background: linear-gradient(to bottom,rgb(136, 136, 174),rgb(57, 1, 57));
+  transform: translateY(-13px);  
 }
 .ser-hea{
   margin-top: 5%;
@@ -382,5 +389,147 @@ margin-top: -50px;
   font-size: 50px;
 text-shadow: 1px 2px 2px rgb(254, 251, 255);
 }
+.all{
+  display: flex;
+margin-left: -70px;
+  justify-content: space-evenly;
+}
+.circle-wrap {
+  display: grid;
+  grid-template-columns: repeat(1, 160px);
+  grid-gap: 80px;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  background: #d9d7da;
+  border-radius: 50%;
+}
 
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill-1,
+.circle-wrap .circle .fill-2,
+.circle-wrap .circle .fill-3,
+.circle-wrap .circle .fill-4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
 
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  background: #212020;
+  line-height: 120px;
+  text-align: center;
+  margin-top: 13px;
+  margin-left: 13px;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+/* color animation */
+
+.mask .fill-1 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background: linear-gradient(to left,rgb(0, 0, 0),rgb(167, 64, 167));
+}
+
+.mask.full-1,
+.circle .fill-1 {
+  animation: fill-1 ease-in-out 9s;
+  transform: rotate(175deg);
+}
+
+@keyframes fill-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(153deg);
+  }
+}
+
+/* 2nd bar */
+
+.mask .fill-2 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background: linear-gradient(to left,rgb(0, 0, 0),rgb(167, 64, 167));
+}
+
+.mask.full-2,
+.circle .fill-2 {
+  animation: fill-2 ease-in-out 9s;
+  transform: rotate(135deg);
+}
+
+@keyframes fill-2{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(117deg);
+  }
+}
+
+/* 3rd progress bar */
+.mask .fill-3 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background: linear-gradient(to left,rgb(0, 0, 0),rgb(167, 64, 167));
+}
+
+.mask.full-3,
+.circle .fill-3 {
+  animation: fill-3 ease-in-out 9s;
+  transform: rotate(130deg);
+}
+
+@keyframes fill-3{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+/* 4th progress bar */
+.mask .fill-4 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background: linear-gradient(to left,rgb(0, 0, 0),rgb(167, 64, 167));
+}
+
+.mask.full-4,
+.circle .fill-4 {
+  animation: fill-4 ease-in-out 9s;
+  transform: rotate(150deg);
+}
+
+@keyframes fill-4{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+.skills{
+  margin-top: 2%;
+  margin-left: 43%;
+  color: white;
+  font-size: 50px;
+text-shadow: 1px 2px 2px rgb(254, 251, 255);
+margin-bottom: -10px;
+}
+.skill-heading{
+  margin-top: 100%;
+  margin-left: 15px;
+}
