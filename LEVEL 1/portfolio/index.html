@@ -222,12 +222,38 @@
     </div>
    
   </section>
+ 
+  <section id="Contact">
+    <div><img class="contact-img" src="./contact.png"data-aos="fade-up"data-aos-duration="1000"></div>
+    <div class="contact-container"data-aos="fade-up"data-aos-duration="1000">
+      
+  <h2 class="contact-hea">Contact Me</h2>
+      <form action="process-form.php" method="post">
+          <div class="form-group" id="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="con-btn">Submit</button>
+      </form>
+  </div>
+
+  </section>
+ 
+
   <script>
 document.addEventListener('DOMContentLoaded', function () {
     AOS.init();
 });
 
-  </script>
+</script>
 </body>
 
 </html>
