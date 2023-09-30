@@ -309,10 +309,12 @@ margin-top: -50px;
   color: white;
   font-size: 20px;
   margin: 0 10px;
-  transition: background-color 0.3s ease;
+  transition: 0.7s ease;
+
 }
 .abt-icon:hover {
-  background: linear-gradient(to bottom,rgb(96, 190, 230),rgb(201, 98, 201)) 
+  background: linear-gradient(to bottom,rgb(96, 190, 230),rgb(201, 98, 201)); 
+  transform:translateY(-13px);  
 }
 
 
@@ -683,3 +685,21 @@ textarea:focus{
   margin-left: 10px;
 }
 
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background:linear-gradient(to top,black,rgb(6, 1, 67));
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
