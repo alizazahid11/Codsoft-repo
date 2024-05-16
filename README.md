@@ -11,7 +11,7 @@ During my internship at Codsoft Company, I had the opportunity to work on three 
 - Features: The calculator features a user-friendly interface with buttons for numeric input and operations. It dynamically updates the display with the result of the calculations.
 - Technologies Used: HTML, CSS, JavaScript
  #### Live Demo
-  https://simple-calculator-aliza.netlify.app/
+ https://calc-aliza.netlify.app/
   
 ### Coffee Shop Landing Page:
 
