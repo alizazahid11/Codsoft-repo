@@ -10,7 +10,7 @@ Calculator:
 - Description: The calculator project involved building a basic calculator application using HTML, CSS, and JavaScript. It allows users to perform arithmetic calculations such as addition, subtraction, multiplication, and division.
 - Features: The calculator features a user-friendly interface with buttons for numeric input and operations. It dynamically updates the display with the result of the calculations.
 - Technologies Used: HTML, CSS, JavaScript
- ##Live Demo
+ ## Live Demo
   https://simple-calculator-aliza.netlify.app/
 Coffee Shop Landing Page:
 
@@ -20,7 +20,7 @@ Coffee Shop Landing Page:
 
 
 Portfolio Website:
- ##Live Demo
+ ## Live Demo
  https://portfolio-aliza.netlify.app/
 - Description: My portfolio website served as a showcase of my skills, projects, and experiences during the internship and beyond. It provided visitors with information about my background, education, skills, and contact details.
 - Features: The portfolio website featured sections for my projects, including the calculator and coffee shop landing page, as well as a blog section for sharing insights and updates.
