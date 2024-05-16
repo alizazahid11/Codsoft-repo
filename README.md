@@ -11,10 +11,10 @@ During my internship at Codsoft Company, I had the opportunity to work on three 
 - Features: The calculator features a user-friendly interface with buttons for numeric input and operations. It dynamically updates the display with the result of the calculations.
 - Technologies Used: HTML, CSS, JavaScript
   
- ![Alt text](https://github.com/alizazahid11/Codsoft-repo/blob/main/Assets/calc.PNG?raw=true)
+   ![Alt text](https://github.com/alizazahid11/Codsoft-repo/blob/main/Assets/calc.PNG?raw=true)
  
- #### Live Demo
- https://calc-aliza.netlify.app/
+   #### Live Demo
+   https://calc-aliza.netlify.app/
   
 ### Coffee Shop Landing Page:
 
@@ -22,17 +22,17 @@ During my internship at Codsoft Company, I had the opportunity to work on three 
 - Features: The landing page features a visually appealing design with images, descriptions.
 - Technologies Used: HTML, CSS
 
- ![Alt text](https://github.com/alizazahid11/Codsoft-repo/blob/main/Assets/coffee.PNG?raw=true)
+   ![Alt text](https://github.com/alizazahid11/Codsoft-repo/blob/main/Assets/coffee.PNG?raw=true)
   
-#### Live Demo
-https://coffee-shop-aliza.netlify.app/
+   #### Live Demo
+   https://coffee-shop-aliza.netlify.app/
 
 ### Portfolio Website:
 
  - Description: My portfolio website served as a showcase of my skills, projects, and experiences during the internship and beyond. It provided visitors with information about my background, education, skills, and contact details.
 - Features: The portfolio website featured sections for my projects, including the calculator and coffee shop landing page, as well as a blog section for sharing insights and updates.
 - Technologies Used: HTML, CSS, JavaScript
- ![Alt text](https://github.com/alizazahid11/Codsoft-repo/blob/main/Assets/port.PNG?raw=true)
+   ![Alt text](https://github.com/alizazahid11/Codsoft-repo/blob/main/Assets/port.PNG?raw=true)
 
- #### Live Demo
- https://portfolio-aliza.netlify.app/
+   #### Live Demo
+   https://portfolio-aliza.netlify.app/
