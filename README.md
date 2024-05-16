@@ -18,7 +18,8 @@ During my internship at Codsoft Company, I had the opportunity to work on three 
 - Description: The coffee shop landing page project focused on creating a landing page for a fictional coffee shop. It aimed to attract visitors and provide information about the coffee shop's products, services, and location.
 - Features: The landing page features a visually appealing design with images, descriptions.
 - Technologies Used: HTML, CSS
-
+   #### Live Demo
+https://coffee-shop-aliza.netlify.app/
 
 ### Portfolio Website:
  #### Live Demo
